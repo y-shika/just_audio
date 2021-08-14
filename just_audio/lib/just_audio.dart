@@ -261,6 +261,9 @@ class AudioPlayer {
     }
   }
 
+  /// The previously set [AudioSource], if any.
+  AudioSource? get audioSource => _audioSource;
+
   /// The latest [PlaybackEvent].
   PlaybackEvent get playbackEvent => _playbackEvent;
 
